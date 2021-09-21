@@ -43,7 +43,7 @@ app = Flask(__name__, static_url_path='/output', static_folder='output')
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-UPLOAD_FOLDER = "E:\\CaptUploads"
+UPLOAD_FOLDER = "D:\\CaptUploads"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route('/')  
